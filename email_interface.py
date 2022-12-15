@@ -6,7 +6,7 @@ class EmailInterface:
 
     def __init__(self):
         self.email_sender = "cameronbaabsprinterhealthtest@gmail.com" # Test Account
-        self.app_password = "segbkkbotmisvhbl"
+        self.app_password = "segbkkbotmisvhbl" # Only keeping this since it is a throwaway test account
 
     def send_email(self, email_receiver: str, subject: str, body: str) -> None:
         em = EmailMessage()
